@@ -1,0 +1,8 @@
+streamlit
+plotly
+pandas
+streamlit_extras
+matplotlib
+bytesbufio
+matplotlib
+pdfkit

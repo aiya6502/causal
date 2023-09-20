@@ -40,7 +40,7 @@ fu = st.file_uploader("Upload a CSV file", type=["csv"])
 if fu is not None:
     st.session_state.csv_file = fu      
 else:
-    st.session_state.csv_file = 'C:\Cardiac-AI\causal\low1.csv'    
+    st.session_state.csv_file = 'low1.csv'    
 
            
 df = pd.read_csv(st.session_state.csv_file)
