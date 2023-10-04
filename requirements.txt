@@ -6,3 +6,4 @@ matplotlib
 bytesbufio
 matplotlib
 pdfkit
+scipy

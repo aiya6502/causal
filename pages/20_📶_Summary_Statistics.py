@@ -5,11 +5,11 @@ import pandas as pd
 from streamlit_extras.app_logo import add_logo
 import scipy
 
-st.set_page_config(page_title="Summary Statistics", page_icon=":clipboard:",layout="wide")
+st.set_page_config(page_title="Summary Statistics", page_icon=":signal_strength:",layout="wide")
 st.session_state.update(st.session_state)
 
 add_logo('images/logo.png', height=50)
-st.markdown("""<style>#MainMenu {visibility: hidden;} footer {visibility: hidden;}</style>""", unsafe_allow_html=True)
+st.markdown("""<style> .reportview-container {margin-top: -2em;} #MainMenu {visibility: hidden;} .stDeployButton{display: none;} #stDecoration {display: none;}  footer {visibility: hidden;}</style>""", unsafe_allow_html=True)
 
 def get_percentage(p):
     if p.is_integer():

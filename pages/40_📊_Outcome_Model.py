@@ -9,7 +9,7 @@ st.set_page_config(page_title="Outcome Model", page_icon=":bar_chart:",layout="w
 st.session_state.update(st.session_state)
 
 add_logo('images/logo.png', height=50)
-st.markdown("""<style>#MainMenu {visibility: hidden;} footer {visibility: hidden;}</style>""", unsafe_allow_html=True)
+st.markdown("""<style> .reportview-container {margin-top: -2em;} #MainMenu {visibility: hidden;} .stDeployButton{display: none;} #stDecoration {display: none;}  footer {visibility: hidden;}</style>""", unsafe_allow_html=True)
 
 st.title("Outcome Model")
 st.markdown('<style>div.block-container{padding-top:1rem;}</style>',unsafe_allow_html=True)
